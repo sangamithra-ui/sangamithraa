@@ -8,19 +8,18 @@ h1{
     left: 20px;
     font-size: 25px;
 }
+
 .online{
     position: fixed;
     top: 20px;
     right: 20px;
 }
+
 .main{
-    text-align:center;
+    text-align: center;
     margin-top: 100px;
 }
-.p1
-{
-    color:darkslategray;
-}
+
 .Being{
     color: blue;
 }
@@ -28,6 +27,7 @@ h1{
 .Infinity{
     color: black;
 }
+
 .search-box{
     width: 40%;
     margin: 20px auto;
@@ -39,7 +39,7 @@ h1{
     height: 45px;
     border: 1px solid gray;
     border-radius: 25px;
-    padding-left: 40px;
+    padding-left: 45px;
     font-size: 16px;
     outline: none;
     box-sizing: border-box;
@@ -53,14 +53,26 @@ h1{
     color: gray;
     font-size: 18px;
 }
+
 #suggest-box{
-    width: 40%;
-    margin: 5px auto;
-    border: 1px solid gray;
-    border-radius: 10px;
-    background-color: white;
-    min-height: 250px;
-    box-sizing: border-box;
+    display: none;
+    margin:3px auto;
+    width:32.5%;
+    position:relative;
+    left:9px;
+    text-align:center;
+    border-radius:10px;
+    border:1px solid #ccc;
+    background:white;
 }
 
+.suggest-text{
+    padding:10px;
+    border-bottom:1px solid #1a1111;
+    cursor:pointer;
+    text-align:left;
+}
 
+.suggest-text:hover{
+    background-color:#f2f2f2;
+}
