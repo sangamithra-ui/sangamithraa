@@ -1,52 +1,55 @@
-h1{
-    color:black;
+h1 {
+  color: red;
 }
-/*property:value*/
+
+/* property : value */
+
 
 #home-intro{
-    text-align: center;
-    border:3px solid blue;
+  text-align: center;
+  border: 3px solid blue;
+
 }
-#nav{
-    text-align: center;
-    background-color: rgb(44, 136, 128);
-    height: 25px;
-    padding-top: 5px;
-    margin-bottom: 5px;
-}
-#nav a{
-    margin: 0px 5px;
-    text-decoration: none;
-    color: white; 
-}
-#card{
-    align-items:center;
-    margin-top:5px;
-    border: 3px solid black;
-    width:300px;
-    height:580px;
-    margin: 3px auto;
-}
-#card-img{
-    width: 300px;
-    height:300px;
-    align-items:center;
-    margin:0px auto;
-}
-img{
-    width:300px;
-    height:300px;
-    border-radius: 8px;
-}
-#action{
-    text-align: center;
-}
-button{
-    width: 100%;
-}
+
 #home-intro:hover{
-    background-color:rgb(41, 136, 153);
+  background-color: burlywood;
 }
+
 #p2{
-    color: blue;
+  color: blue;
+}
+
+#nav{
+  text-align: center;
+  background-color: brown;
+  height: 25px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+#nav a{
+  margin: 0px 5px;
+  text-decoration: none;
+  color: white;
+}
+
+#card{
+  align-items: center;
+  margin-top: 5px;
+}
+
+#card-img{
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  margin: 0px auto;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+}
+
+#action{
+  text-align: center;
 }
